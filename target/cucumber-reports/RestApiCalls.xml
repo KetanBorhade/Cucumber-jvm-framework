@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="11.105617">
+<testcase classname="REST scenarios" name="Verify REST calls" time="11.105617">
+<system-out><![CDATA[Given user perform get call on "https://jsonplaceholder.typicode.com/posts/1" url.passed
+Then verify response contains "sunt aut facere repellat provident occaecati excepturi optio reprehenderit" string.passed
+Then verify response contains "DoubleQuoteuserIdDoubleQuote: 1," string.....passed
+When user perform get post call on "http://jsonplaceholder.typicode.com/posts" url with "{D_QtitleD_Q:D_QfooD_Q,D_QbodyD_Q: D_QbarD_Q,D_QuserIdD_Q: D_Q1D_Q}" json.passed
+Then verify response contains "foo" string..................................passed
+Then verify response contains "bar" string..................................passed
+Then verify response "201" code.............................................passed
+Then verify post call "foo" title value.....................................passed
+Then verify post call "bar" body value......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

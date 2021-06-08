@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="51.811916">
+<testcase classname="todo scenarios" name="Verify elements gets added to list" time="32.429075">
+<system-out><![CDATA[Given user is on todo Home Page.............................................passed
+When user enters text "Abcd" in todo list...................................passed
+Then value "Abcd" is added in todo list.....................................passed
+When user enters text "Xyz" in todo list....................................passed
+When user enters text "Pqr" in todo list....................................passed
+Then list values are as followed "Abcd,Xyz,Pqr" in todo list................passed
+When select "Abcd" from todo list...........................................passed
+Then list values are as followed "Abcd,Xyz,Pqr" in todo list................passed
+When user click on link "Active" in todo list...............................passed
+Then list values are as followed "Xyz,Pqr" in todo list.....................passed
+When user click on link "Completed" in todo list............................passed
+Then value "Abcd" is added in todo list.....................................passed
+When click button "Clear completed" from todo list..........................passed
+Then value "Abcd" is not displayed in todo list.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="todo scenarios" name="Verify items gets listed in active list" time="10.12618">
+<system-out><![CDATA[Given user is on todo Home Page.............................................passed
+When user enters text "Xyz" in todo list....................................passed
+When user enters text "Pqr" in todo list....................................passed
+When user click on link "Active" in todo list...............................passed
+Then list values are as followed "Xyz,Pqr" in todo list.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="todo scenarios" name="Verify remove element functionality" time="9.256661">
+<system-out><![CDATA[Given user is on todo Home Page.............................................passed
+When user enters text "Abcd" in todo list...................................passed
+When user enters text "Xyz" in todo list....................................passed
+When user enters text "Pqr" in todo list....................................passed
+Then value "Abcd" is added in todo list.....................................passed
+When remove value "Abcd" from todo list.....................................passed
+Then list values are as followed "Xyz,Pqr" in todo list.....................passed
+]]></system-out>
+</testcase>
+</testsuite>

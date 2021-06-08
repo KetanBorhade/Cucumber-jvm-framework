@@ -1,0 +1,219 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8394032300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Verify REST calls",
+        "description": "",
+        "id": "rest-scenarios;verify-rest-calls",
+        "after": [
+          {
+            "result": {
+              "duration": 149000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1268611600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterSteps()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 865382300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user perform get call on \"https://jsonplaceholder.typicode.com/posts/1\" url",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://jsonplaceholder.typicode.com/posts/1",
+                  "offset": 26
+                }
+              ],
+              "location": "RestCallMethodPOM.user_perform_get_call_on(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 226800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "verify response contains \"sunt aut facere repellat provident occaecati excepturi optio reprehenderit\" string",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+                  "offset": 26
+                }
+              ],
+              "location": "RestCallMethodPOM.verify_response_contains_string(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1452900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify response contains \"DoubleQuoteuserIdDoubleQuote: 1,\" string",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DoubleQuoteuserIdDoubleQuote: 1,",
+                  "offset": 26
+                }
+              ],
+              "location": "RestCallMethodPOM.verify_response_contains_string(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 574202600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user perform get post call on \"http://jsonplaceholder.typicode.com/posts\" url with \"{D_QtitleD_Q:D_QfooD_Q,D_QbodyD_Q: D_QbarD_Q,D_QuserIdD_Q: D_Q1D_Q}\" json",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://jsonplaceholder.typicode.com/posts",
+                  "offset": 31
+                },
+                {
+                  "val": "{D_QtitleD_Q:D_QfooD_Q,D_QbodyD_Q: D_QbarD_Q,D_QuserIdD_Q: D_Q1D_Q}",
+                  "offset": 84
+                }
+              ],
+              "location": "RestCallMethodPOM.user_perform_post_call_with_json(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 92400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify response contains \"foo\" string",
+            "match": {
+              "arguments": [
+                {
+                  "val": "foo",
+                  "offset": 26
+                }
+              ],
+              "location": "RestCallMethodPOM.verify_response_contains_string(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 97200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify response contains \"bar\" string",
+            "match": {
+              "arguments": [
+                {
+                  "val": "bar",
+                  "offset": 26
+                }
+              ],
+              "location": "RestCallMethodPOM.verify_response_contains_string(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1093300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify response \"201\" code",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 17
+                }
+              ],
+              "location": "RestCallMethodPOM.verify_response_contains_string(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 154100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify post call \"foo\" title value",
+            "match": {
+              "arguments": [
+                {
+                  "val": "foo",
+                  "offset": 18
+                }
+              ],
+              "location": "RestCallMethodPOM.verify_post_call_title_value(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 122100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "verify post call \"bar\" body value",
+            "match": {
+              "arguments": [
+                {
+                  "val": "bar",
+                  "offset": 18
+                }
+              ],
+              "location": "RestCallMethodPOM.verify_post_call_body_value(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "REST scenarios",
+    "description": "",
+    "id": "rest-scenarios",
+    "keyword": "Feature",
+    "uri": "src/test/resources/parallel/RestApiCalls.feature"
+  }
+]

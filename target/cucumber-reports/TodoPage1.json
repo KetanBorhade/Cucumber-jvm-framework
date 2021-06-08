@@ -1,0 +1,585 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8443345900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Verify elements gets added to list",
+        "description": "",
+        "id": "todo-scenarios;verify-elements-gets-added-to-list",
+        "after": [
+          {
+            "result": {
+              "duration": 168800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 880687500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterSteps()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1088298000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on todo Home Page",
+            "match": {
+              "location": "ToDoStepsPOM.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 543084300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters text \"Abcd\" in todo list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Abcd",
+                  "offset": 18
+                }
+              ],
+              "location": "ToDoStepsPOM.user_enters_text_in_todo_list(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 70623200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "value \"Abcd\" is added in todo list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Abcd",
+                  "offset": 7
+                }
+              ],
+              "location": "ToDoStepsPOM.value_is_added_to_list(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 136630200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters text \"Xyz\" in todo list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Xyz",
+                  "offset": 18
+                }
+              ],
+              "location": "ToDoStepsPOM.user_enters_text_in_todo_list(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 135261600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters text \"Pqr\" in todo list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Pqr",
+                  "offset": 18
+                }
+              ],
+              "location": "ToDoStepsPOM.user_enters_text_in_todo_list(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 187820800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "list values are as followed \"Abcd,Xyz,Pqr\" in todo list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Abcd,Xyz,Pqr",
+                  "offset": 29
+                }
+              ],
+              "location": "ToDoStepsPOM.list_values_are_as_followed(String\u003e)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 137325600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "select \"Abcd\" from todo list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Abcd",
+                  "offset": 8
+                }
+              ],
+              "location": "ToDoStepsPOM.select_item_from_todo_list(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 182439400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "list values are as followed \"Abcd,Xyz,Pqr\" in todo list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Abcd,Xyz,Pqr",
+                  "offset": 29
+                }
+              ],
+              "location": "ToDoStepsPOM.list_values_are_as_followed(String\u003e)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 155621000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user click on link \"Active\" in todo list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Active",
+                  "offset": 20
+                }
+              ],
+              "location": "ToDoStepsPOM.user_click_on_link(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 119779500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "list values are as followed \"Xyz,Pqr\" in todo list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Xyz,Pqr",
+                  "offset": 29
+                }
+              ],
+              "location": "ToDoStepsPOM.list_values_are_as_followed(String\u003e)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 99551700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user click on link \"Completed\" in todo list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Completed",
+                  "offset": 20
+                }
+              ],
+              "location": "ToDoStepsPOM.user_click_on_link(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 64494000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "value \"Abcd\" is added in todo list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Abcd",
+                  "offset": 7
+                }
+              ],
+              "location": "ToDoStepsPOM.value_is_added_to_list(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 114288200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click button \"Clear completed\" from todo list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Clear completed",
+                  "offset": 14
+                }
+              ],
+              "location": "ToDoStepsPOM.click_button_from_todo_list(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20069654900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "value \"Abcd\" is not displayed in todo list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Abcd",
+                  "offset": 7
+                }
+              ],
+              "location": "ToDoStepsPOM.value_is_not_displayed_in_todo_list(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5626656700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Verify items gets listed in active list",
+        "description": "",
+        "id": "todo-scenarios;verify-items-gets-listed-in-active-list",
+        "after": [
+          {
+            "result": {
+              "duration": 46000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2990353900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterSteps()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 696711800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user is on todo Home Page",
+            "match": {
+              "location": "ToDoStepsPOM.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 302693100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user enters text \"Xyz\" in todo list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Xyz",
+                  "offset": 18
+                }
+              ],
+              "location": "ToDoStepsPOM.user_enters_text_in_todo_list(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 191733100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user enters text \"Pqr\" in todo list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Pqr",
+                  "offset": 18
+                }
+              ],
+              "location": "ToDoStepsPOM.user_enters_text_in_todo_list(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 144894800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user click on link \"Active\" in todo list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Active",
+                  "offset": 20
+                }
+              ],
+              "location": "ToDoStepsPOM.user_click_on_link(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 173090700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "list values are as followed \"Xyz,Pqr\" in todo list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Xyz,Pqr",
+                  "offset": 29
+                }
+              ],
+              "location": "ToDoStepsPOM.list_values_are_as_followed(String\u003e)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5559426100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Verify remove element functionality",
+        "description": "",
+        "id": "todo-scenarios;verify-remove-element-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 43800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2215487200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterSteps()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 662295200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user is on todo Home Page",
+            "match": {
+              "location": "ToDoStepsPOM.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 237314000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user enters text \"Abcd\" in todo list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Abcd",
+                  "offset": 18
+                }
+              ],
+              "location": "ToDoStepsPOM.user_enters_text_in_todo_list(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 139336600,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user enters text \"Xyz\" in todo list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Xyz",
+                  "offset": 18
+                }
+              ],
+              "location": "ToDoStepsPOM.user_enters_text_in_todo_list(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 135061900,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user enters text \"Pqr\" in todo list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Pqr",
+                  "offset": 18
+                }
+              ],
+              "location": "ToDoStepsPOM.user_enters_text_in_todo_list(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 63969400,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "value \"Abcd\" is added in todo list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Abcd",
+                  "offset": 7
+                }
+              ],
+              "location": "ToDoStepsPOM.value_is_added_to_list(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 105544400,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "remove value \"Abcd\" from todo list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Abcd",
+                  "offset": 14
+                }
+              ],
+              "location": "ToDoStepsPOM.remove_value_from_todo_list(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 138182600,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "list values are as followed \"Xyz,Pqr\" in todo list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Xyz,Pqr",
+                  "offset": 29
+                }
+              ],
+              "location": "ToDoStepsPOM.list_values_are_as_followed(String\u003e)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "todo scenarios",
+    "description": "",
+    "id": "todo-scenarios",
+    "keyword": "Feature",
+    "uri": "src/test/resources/parallel/TodoPage1.feature"
+  }
+]
