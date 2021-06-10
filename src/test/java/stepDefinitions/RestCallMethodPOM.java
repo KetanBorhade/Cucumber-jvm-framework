@@ -21,13 +21,13 @@ public class RestCallMethodPOM {
 
     }
 
-    @Then("^verify response contains \"([^\"]*)\" string$")
+    @Then("^verify response contains /(.*?)/ string$")
     public void verify_response_contains_string(String value){
         getCallMethodPOM.responseContainsString(value);
 
     }
 
-    @Given("^user perform get post call on \"([^\"]*)\" url with \"([^\"]*)\" json$")
+    @Given("^user perform get post call on \"([^\"]*)\" url with /(.*?)/ json$")
     public void user_perform_post_call_with_json(String url,String json){
         getCallMethodPOM.testPost(url,json);
 
